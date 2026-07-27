@@ -1,0 +1,33 @@
+{
+  "azphalt": "0.1",
+  "id": "com.hereliesaz.azphalt.dreamy-glow",
+  "name": "Dreamy Glow",
+  "version": "1.0.0",
+  "kind": "asset",
+  "license": "LicenseRef-Proprietary",
+  "compat": ">=0.1",
+  "description": "A soft ethereal bloom that lifts shadows and blooms highlights \u2014 the dreamy, angelic glow that dominates beauty and lifestyle content.",
+  "author": "HereLiesAz",
+  "targetApps": [
+    "com.hereliesaz.guillotine"
+  ],
+  "assets": [
+    {
+      "type": "shader",
+      "path": "assets/dreamy-glow.fs",
+      "ui": "ui/panel.json",
+      "params": {
+        "format": "isf"
+      },
+      "tags": [
+        "shader",
+        "stylize",
+        "dreamy",
+        "glow",
+        "bloom",
+        "soft-focus",
+        "one-click"
+      ]
+    }
+  ]
+}
